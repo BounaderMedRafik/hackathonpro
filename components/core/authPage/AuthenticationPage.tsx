@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useSignIn, useSignUp } from "@clerk/nextjs";
 import { OAuthStrategy } from "@clerk/types";
 import { AnimatePresence, motion } from "motion/react";
-import React, { useState } from "react";
+import { useState } from "react";
 import { BsDiscord, BsGithub } from "react-icons/bs";
 
 const AuthenticationPage = () => {

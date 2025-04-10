@@ -1,21 +1,26 @@
 {
-  "name": "Your App Name",
-  "short_name": "App",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
-  "description": "Your app description",
+  "theme_color": "#80d979",
+  "background_color": "#2bd91f",
   "icons": [
     {
-      "src": "/icons/icon-192x192.png",
-      "sizes": "192x192",
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icon512_maskable.png",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "purpose": "any",
       "sizes": "512x512",
+      "src": "icon512_rounded.png",
       "type": "image/png"
     }
-  ]
+  ],
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "dir": "auto",
+  "lang": "en-US",
+  "name": "TraceEats",
+  "short_name": "TraceEats",
+  "start_url": "http://10.1.4.158:3000/",
+  "scope": "http://10.1.4.158:3000/"
 }

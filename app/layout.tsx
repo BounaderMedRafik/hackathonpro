@@ -20,6 +20,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TraceEats",
   description: "Everything you need for smarter, safer food decisions.",
+  manifest: "/manifest.json",
   icons: {
     icon: "/logo-green.svg",
   },

@@ -228,19 +228,19 @@ const About = () => {
                   <Play />
                 </div>
                 <img
-                  className=" rounded-3xl"
-                  src="https://cdn.prod.website-files.com/61e8494b1e8e024a7113bd50/65c270bcec66e132fd34d972_reporting-p-800.png"
+                  className=" rounded-3xl h-44 w-full object-cover"
+                  src="http://localhost:3000/timeline.jpg"
                 />
               </div>
             </DialogTrigger>
             <DialogContent className=" bg-transparent border-transparent shadow-none min-w-96">
               <DialogTitle className=" hidden" />
               <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/jqXbNEbOhmE?si=cw0fj7HH14jORa3K"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                src="https://drive.google.com/file/d/1x9K-0UxqZsBre4zVlFGpyac5bAh6TtvZ/preview"
+                width="640"
+                height="480"
+                allow="autoplay"
+                className=" -ml-24"
               ></iframe>
             </DialogContent>
           </Dialog>
